@@ -1,1 +1,13 @@
 /dsenv
+/.env
+/.venv
+/.vscode
+/.idea
+/.DS_Store
+/.pytest_cache
+/.mypy_cache
+/.coverage
+/.tox
+/.ipynb_checkpoints
+/.ropeproject
+/.pytest_cache/
