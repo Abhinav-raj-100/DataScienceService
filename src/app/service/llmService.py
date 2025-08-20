@@ -10,7 +10,7 @@ from langchain_core.utils.function_calling import convert_to_openai_tool
 from dotenv import load_dotenv,dotenv_values
 import os
 
-from service.Expense import Expense
+from app.service.Expense import Expense
 
 class LLMService:
     def __init__(self):
