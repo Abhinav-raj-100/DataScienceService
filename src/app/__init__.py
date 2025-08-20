@@ -15,7 +15,7 @@ import os
 messageService = MessageService()
 
 # Load env variables with defaults
-kafka_host = os.getenv('KAFKA_HOST', 'localhost')
+kafka_host = os.getenv('KAFKA_HOST', 'kafka')
 kafka_port = os.getenv('KAFKA_PORT', '9092')
 kafka_bootstrap_servers = f"{kafka_host}:{kafka_port}"
 
